@@ -1,22 +1,90 @@
-.body {
-    background-color: white;
-    margin: 0;
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    color: #3a3a3a;
+    font-weight: 700;
+
 }
 
+header,
+main {
+    margin: 0 120px;
+}
+
+/* Navbar Section  */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navbar-icon{
-
+.navbar-icon {
+    font-size: 24px;
 }
 
-.navbar-links{
-    width: 30%;
+.navbar-links {
+    width: 35%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+}
+
+.navbar-links li {
+    font-size: 16px;
+}
+
+/* Top Section  */
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-content {
+    width: 50%;
+
+}
+
+.top-title {
+    font-size: 52px;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0;
+}
+
+.top-image {
+    border-radius: 475px;
+    border: 3px solid #F1E4FF;
+}
+
+.top-section p {
+    font-size: 16px;
+    padding: 16px 0px;
+    margin: 0;
+}
+
+button {
+    border: none;
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 10px 24px;
+    color: #ffffff;
+}
+
+button span {
+    padding-left: 8px;
+}
+
+/* Sponsor section  */
+
+.sponsor-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+hr{
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
 }
