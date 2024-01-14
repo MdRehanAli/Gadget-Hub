@@ -37,6 +37,7 @@ main {
 
 /* Top Section  */
 .top-section {
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,13 +51,14 @@ main {
 .top-title {
     font-size: 52px;
     font-weight: 700;
-    padding: 0px;
-    margin: 0;
+    
 }
 
-.top-image {
-    border-radius: 475px;
-    border: 3px solid #F1E4FF;
+
+.top-image{
+padding-top: 40px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
 }
 
 .top-section p {
@@ -85,6 +87,50 @@ button span {
     align-items: center;
 }
 
-hr{
+hr {
     background: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+}
+
+/* Collection Section  */
+
+.collection-title {
+    font-size: 28px;
+    text-align: center;
+}
+
+.collections{
+    padding: 15px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+.collection-image{
+    width: 100%;
+}
+
+.collection-name{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 16px 0px 6px;
+}
+
+.collection-price{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+
+.collections>p{
+    font-size: 14px;
+    margin: 0;
 }
