@@ -17,6 +17,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 60px;
 }
 
 .navbar-icon {
@@ -38,6 +39,7 @@ main {
 /* Top Section  */
 .top-section {
     margin-top: 60px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,9 +58,9 @@ main {
 
 
 .top-image{
-padding-top: 40px;
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .top-section p {
@@ -96,6 +98,14 @@ hr {
 .collection-title {
     font-size: 28px;
     text-align: center;
+    margin: 100px 0px 50px;
+}
+
+.collection-group{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
 }
 
 .collections{
