@@ -144,3 +144,9 @@ hr {
     font-size: 14px;
     margin: 0;
 }
+
+/* Footer section */
+footer{
+    background-color: #0A0826;
+    color: white;
+}
